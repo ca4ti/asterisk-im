@@ -30,7 +30,7 @@ The plugin is now in ./server/target/asterisk-im.jar
 ```
 
 ```
-140  yum -y install java-1.8.0-openjdk-devel java-1.8.0-openjdk-headless java-1.8.0-openjdk git maven unzip
+  140  yum -y install java-1.8.0-openjdk-devel java-1.8.0-openjdk-headless java-1.8.0-openjdk git maven unzip
   141  wget https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire-4.0.4-1.i386.rpm -O openfire-4.0.4-1.i386.rpm
   142  wget -i https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire-4.0.4-1.i386.rpm -O openfire-4.0.4-1.i386.rpm
   143  curl -k  https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire-4.0.4-1.i386.rpm -O openfire-4.0.4-1.i386.rpm
