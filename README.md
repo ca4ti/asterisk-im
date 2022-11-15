@@ -29,7 +29,7 @@ mvn clean install
 The plugin is now in ./server/target/asterisk-im.jar
 ```
 
-
+...
  140  yum -y install java-1.8.0-openjdk-devel java-1.8.0-openjdk-headless java-1.8.0-openjdk git maven unzip
   141  wget https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire-4.0.4-1.i386.rpm -O openfire-4.0.4-1.i386.rpm
   142  wget -i https://www.igniterealtime.org/downloadServlet?filename=openfire/openfire-4.0.4-1.i386.rpm -O openfire-4.0.4-1.i386.rpm
@@ -66,3 +66,4 @@ The plugin is now in ./server/target/asterisk-im.jar
   173  yum -y install libldb.i686
   174  /opt/openfire/jre/bin/java -server  -DopenfireHome=/opt/openfire -Dopenfire.lib.dir=/opt/openfire/lib -classpath "/opt/openfire/lib/startup.jar" -jar "/opt/openfire/lib/startup.jar"
   175  /etc/init.d/openfire start
+...
